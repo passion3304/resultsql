@@ -1,0 +1,37 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules":{
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "no-param-reassign": [2, {
+      "props": false
+    }],
+    "class-methods-use-this": ["off"],
+    "max-len":["error", 150],
+    "space-after-keywords": 0,
+    "space-return-throw-case": 0,
+    "no-restricted-globals": 1,
+    "import/extensions": "off",
+    "global-require": 0,
+    "camelcase": 0,
+    "no-return-assign": 0,
+    "no-plusplus": 0,
+    "no-eval": 0
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+
+}

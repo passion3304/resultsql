@@ -1,0 +1,10 @@
+.idea/
+lib/
+node_modules/
+/public
+/dumps
+/logs
+npm-debug.log
+package-lock.json
+jsconfig.json
+.editorconfig

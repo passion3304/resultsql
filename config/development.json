@@ -1,0 +1,20 @@
+{
+  "languages": ["de"],
+
+  "mergedCats": {
+    "2020": true,
+    "2008": true,
+    "4058": true,
+    "5920": true,
+    "12762": true,
+    "2409": true
+  },
+  "ignoredCats": {
+    "29998": true
+  },
+
+  "hasCategoriesCache": true,
+
+  "isProduction": false,
+  "isDevelopment": true
+}

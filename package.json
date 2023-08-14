@@ -1,0 +1,51 @@
+{
+  "name": "sport_categories",
+  "version": "0.0.1",
+  "description": "GrpahQl server for sport categories",
+  "engines": {
+    "node": "16.x.x",
+    "npm": "8.x.x"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.1.7",
+    "body-parser": "^1.18.2",
+    "btoa": "^1.2.1",
+    "cli-color": "^1.2.0",
+    "connect": "^3.6.5",
+    "date-fns": "^1.30.1",
+    "express": "^4.16.2",
+    "express-error-handler": "^1.1.0",
+    "fs-extra": "^8.0.1",
+    "graphql-tools": "^1.2.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.24.0",
+    "node-ipc": "^9.1.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "serve-static": "^1.13.1",
+    "socketcluster-client": "^14.2.2",
+    "validator": "^13.0.0",
+    "winston": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node ./bin/start.js",
+    "lint": "eslint .",
+    "fix_lint": "eslint . --fix",
+    "watch": "nodemon --watch server --exec npm run start"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "graphql": "^0.10.0",
+    "nodemon": "^1.12.1",
+    "pre-commit": "^1.1.3"
+  },
+  "pre-commit": {
+    "run": [
+      "lint"
+    ]
+  },
+  "bundleDependencies": [],
+  "private": true,
+  "main": "server.js"
+}
